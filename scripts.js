@@ -20,7 +20,7 @@ setImage = () => {
       num += 1
     }
   }
-  img.src = `images/Nico${num}.jpg`
+  img.src = `images/Nico${num}.png`
   if ([...img.classList].includes('fade-out')) img.classList.toggle('fade-out')
 }
 
